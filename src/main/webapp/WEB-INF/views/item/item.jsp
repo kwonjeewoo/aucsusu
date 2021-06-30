@@ -1,6 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%--<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -79,7 +78,7 @@
                     <a class="nav-link" href="/market/all">전체 상품</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="#market/addItem">상품 등록</a>
+                    <a class="nav-link" href="/market/addItem">상품 등록</a>
                 </li>
                 <li id="dropdown">
                     <a class="nav-link">마이페이지</a>
@@ -98,19 +97,11 @@
 
 
 
-<br>
+<br>--%>
 
-아이템 등록
-<%--<form:form modelAttribute="itemCommand">
-    <form:input path="title"/>
-    <form:select path="category">
-        <form:option value="전자제품"/>
-        <form:option value="잡화"/>
-    </form:select>
-    <form:input path="starting"/>
-    <form:input path="deadline"/>
-    <form:textarea path="explain"/>
-</form:form>--%>
+<jsp:include page="../index.jsp" flush="false"/>
+
+item
 
 </body>
 </html>

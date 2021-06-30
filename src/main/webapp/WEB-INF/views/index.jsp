@@ -75,10 +75,10 @@
         <div class="collapse navbar-collapse" id="navbarsExample03">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/market/all">전체 상품</a>
+                    <a class="nav-link" href="/item/all">전체 상품</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="/market/addItem">상품 등록</a>
+                    <a class="nav-link" href="/item/addItem">상품 등록</a>
                 </li>
                 <li id="dropdown">
                     <a class="nav-link">마이페이지</a>
@@ -97,6 +97,7 @@
 
 
 
+<%--
 <br>
 </body>
-</html>
+</html>--%>
